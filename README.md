@@ -5,6 +5,7 @@ Speedrun Practice Command Generator for Minecraft 1.13+
 
 ## How does this work?
 
+- Download the .exe file in the latest release.
 - Preset items are shown above.
 - Modify items in the inventory and offhand by entering the lowercase name of the item in a new line, followed by a space and the quantity of that item.
   - The first nine lines of the inventory will be your hotbar, in that order.
