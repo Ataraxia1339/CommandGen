@@ -8,6 +8,7 @@ Speedrun Practice Command Generator for Minecraft 1.13+
 - Preset items are shown above.
 - Modify items in the inventory and offhand by entering the lowercase name of the item in a new line, followed by a space and the quantity of that item.
   - The first nine lines of the inventory will be your hotbar, in that order.
+  - For Potions of Fire Resistance and Splash Potions of Fire Resistance, type "fire_res" and "splash_fire_res" respectively.
 - Select "Golden Helmet" and/or "Soul Speed Boots" to be equipped with that item (selecting "Soul Speed Boots" gives you Iron Boots enchanted with Soul Speed II).
 - Click "Generate", then "Copy". This copies a `/give` command that gives you the command block.
 - Since the `/give` command is too long to run in the Minecraft chat, you'll have to paste it in a command block and activate that command block (e.g. placing and clicking a button next to it).
