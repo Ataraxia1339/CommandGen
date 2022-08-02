@@ -6,16 +6,19 @@ def parse(line):
     size = ""
     item = line
     try:
-        index = re.search(" \d+", line).span()[0]
+        index = re.search(r" \d+", line).span()[0]
         size = re.search(r"\d+", line[index:]).group()
         item = line[:index]
     except:
         size = "1"
     item = item.replace(" ", "_")
+    try:
+        while item[-1] == "_":
+            item = item[:-1]
+    except:
+        return ""
     if item == "":
-        return "iron_axe 0"
-    while item[-1] == "_":
-        item = item[:-1]
+        return ""
     if item == "fire_res":
         return r"potion{Potion:\"minecraft:fire_resistance\"} " + size
     if item == "splash_fire_res":
@@ -34,7 +37,8 @@ def generate():
         if line == "":
             pass
         items = parse(line)
-        res += "{id:command_block_minecart,Command:'give @a " + items + "'},"
+        if items != "":
+            res += "{id:command_block_minecart,Command:'give @a " + items + "'},"
 
     oh = offhand.get()
     if oh != "":
