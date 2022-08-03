@@ -14,7 +14,7 @@ Speedrun Practice Command Generator for Minecraft 1.13+
 - Click "Generate", then "Copy". This copies a `/give` command that gives you the command block.
 - Since the `/give` command is too long to run in the Minecraft chat, you'll have to paste it in a command block and activate that command block (e.g. placing and clicking a button next to it).
 
-<img src="https://user-images.githubusercontent.com/110107468/182213404-bffb524c-8242-4573-89a2-2b55ea4a532c.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/110107468/182213404-bffb524c-8242-4573-89a2-2b55ea4a532c.png" width="75%"/>
 
 - Activating that command block gives you a separate command block (this is the one you might want to save to your hotbar). Placing this command block gives you all the items and sends you to the nether.
 
