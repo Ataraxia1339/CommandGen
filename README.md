@@ -10,7 +10,7 @@ Speedrun Practice Command Generator for Minecraft 1.13+
 - Modify items in the inventory and offhand by entering the lowercase name of the item in a new line, followed by a space and the quantity of that item.
   - The first nine lines of the inventory will be your hotbar, in that order.
   - For Potions of Fire Resistance and Splash Potions of Fire Resistance, type "fire_res" and "splash_fire_res" respectively.
-- Select "Golden Helmet" and/or "Soul Speed Boots" to be equipped with that item (selecting "Soul Speed Boots" gives you Iron Boots enchanted with Soul Speed II).
+- Select "Gold Helmet" and/or "Soul Speed Boots" to be equipped with that item (selecting "Soul Speed Boots" gives you Iron Boots enchanted with Soul Speed II).
 - You can choose the dimension the command takes you to with the drop-down menu at the top.
   - "Overworld" results in the command to leaving you where you are.
   - "Nether" results in the command creating a nether portal.
