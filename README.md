@@ -20,7 +20,7 @@ Speedrun Practice Command Generator for Minecraft 1.13+
 
 <img src="https://user-images.githubusercontent.com/110107468/182213404-bffb524c-8242-4573-89a2-2b55ea4a532c.png" width="75%"/>
 
-- Activating that command block gives you a separate command block (this is the one you might want to save to your hotbar). Placing this command block gives you all the items and sends you to the nether.
+- Activating that command block gives you a separate command block (this is the one you might want to save to your hotbar). Placing this command block gives you all the items and sends you to the dimension you selected (assuming you were originally in the overworld).
 
 ## Credits
 
