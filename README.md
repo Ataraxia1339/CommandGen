@@ -1,5 +1,5 @@
 # CommandGen
-Speedrun Practice Command Generator for Minecraft 1.13+
+Speedrun Practice Command Generator for Minecraft 1.14+
 
 <img src="https://user-images.githubusercontent.com/110107468/191931244-cfc5b6d9-a166-4d7d-8cce-b540b522f097.png" width="57%"/>
 
